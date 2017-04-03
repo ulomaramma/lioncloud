@@ -1,0 +1,176 @@
+{% extends "::CloudBase.html.twig" %}
+{% block body %}
+
+	
+	<div class="slider">
+		<div class="container">
+			<div id="about-slider">
+				<div id="carousel-slider" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+				  	<ol class="carousel-indicators visible-xs">
+					    <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+					    <li data-target="#carousel-slider" data-slide-to="1"></li>
+					    <li data-target="#carousel-slider" data-slide-to="2"></li>
+				  	</ol>
+
+					<div class="carousel-inner">
+						<div class="item active">
+							<img src="{{asset("bundles/project/images/slider_one.jpg")}}" class="img-responsive" alt=""> 
+					   </div>
+					   <div class="item">
+							<img src="{{asset("bundles/project/images/slider_one.jpg")}}" class="img-responsive" alt=""> 
+					   </div> 
+					   <div class="item">
+							<img src="{{asset("bundles/project/images/slider_one.jpg")}}" class="img-responsive" alt=""> 
+					   </div> 
+					</div>
+					
+					<a class="left carousel-control hidden-xs" href="#carousel-slider" data-slide="prev">
+						<i class="fa fa-angle-left"></i> 
+					</a>
+					
+					<a class=" right carousel-control hidden-xs"href="#carousel-slider" data-slide="next">
+						<i class="fa fa-angle-right"></i> 
+					</a>
+				</div> <!--/#carousel-slider-->
+			</div><!--/#about-slider-->
+		</div>
+	</div>
+
+	 <section id="feature" >
+        <div class="container">
+           <div class="center wow fadeInDown">
+                <h2>News</h2>
+             
+            </div>
+
+            <div class="row">
+                <div class="features">
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-laptop"></i>
+                            <h2>Fresh and Clean</h2>
+                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-comments"></i>
+                            <h2>Retina ready</h2>
+                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-cloud-download"></i>
+                            <h2>Easy to customize</h2>
+                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+                
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-leaf"></i>
+                            <h2>Adipisicing elit</h2>
+                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-cogs"></i>
+                            <h2>Sed do eiusmod</h2>
+                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-heart"></i>
+                            <h2>Labore et dolore</h2>
+                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+                </div><!--/.services-->
+            </div><!--/.row-->    
+        </div><!--/.container-->
+    </section><!--/#feature-->
+	
+		
+
+	
+	<section id="bottom">
+        <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3>Company</h3>
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">We are hiring</a></li>
+                            <li><a href="#">Meet the team</a></li>
+                            <li><a href="#">Copyright</a></li>                           
+                        </ul>
+                    </div>    
+                </div><!--/.col-md-3-->
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3>Support</h3>
+                        <ul>
+                            <li><a href="#">Faq</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Forum</a></li>
+                            <li><a href="#">Documentation</a></li>                          
+                        </ul>
+                    </div>    
+                </div><!--/.col-md-3-->
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3>Developers</h3>
+                        <ul>
+                            <li><a href="#">Web Development</a></li>
+                            <li><a href="#">SEO Marketing</a></li>
+                            <li><a href="#">Theme</a></li>
+                            <li><a href="#">Development</a></li>
+                        </ul>
+                    </div>    
+                </div><!--/.col-md-3-->
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3>Our Partners</h3>
+                        <ul>
+                            <li><a href="#">Adipisicing Elit</a></li>
+                            <li><a href="#">Eiusmod</a></li>
+                            <li><a href="#">Tempor</a></li>
+                            <li><a href="#">Veniam</a></li>                           
+                        </ul>
+                    </div>    
+                </div><!--/.col-md-3-->
+            </div>
+        </div>
+    </section><!--/#bottom-->
+	
+	<div class="top-bar">
+		<div class="container">
+			<div class="row">
+			    <div class="col-lg-12">
+				   <div class="social">
+						<ul class="social-share">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-linkedin"></i></a></li> 
+							<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+							<li><a href="#"><i class="fa fa-skype"></i></a></li>
+						</ul>
+				   </div>
+                </div>
+			</div>
+		</div><!--/.container-->
+	</div><!--/.top-bar-->
+
+{% endblock %}
